@@ -1,0 +1,40 @@
+CustomerChurnModel
+========================================================
+author: Roland Pfeifer
+date: 10/12/2017
+autosize: true
+
+First Slide
+========================================================
+
+For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+Overview
+========================================================
+This presentation contains documentation for the Customer Churn LOS application. The application can be found [**here**] (https://giaykhen.shinyapps.io/Churn)
+
+This application is exploring the Customer Churn Data with respect to LOS (Length of Stay) distribution
+
+Data Source
+========================================================
+
+we have forked repository https://github.com/treselle-systems/customer_churn_analysis which contains the sample data set 'WA_Fn-UseC_-Telco-Customer-Churn.csv'
+
+Shiny files
+========================================================
+
+The application is build using Shiny package and the source code is in 2 files:
+- `ui.R`
+- `server.R`
+
+Both files can be found here: [GitHub repo](https://github.com/vpnet/customer_churn_analysis)
+
+Application functionality
+========================================================
+
+The application is drawing histogram of frequency of LOS distribution in the telco data set.
+
