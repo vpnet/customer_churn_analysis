@@ -31,7 +31,7 @@ The application is build using Shiny package and the source code is in 2 files:
 - `ui.R`
 - `server.R`
 
-Both files can be found here: [GitHub repo](https://github.com/vpnet/customer_churn_analysis)
+Both files can be found here: [GitHub repo](https://github.com/vpnet/customer_churn_analysis/tree/master/Churn)
 
 Application functionality
 ========================================================
