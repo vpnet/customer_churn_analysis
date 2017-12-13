@@ -26,7 +26,7 @@ shinyServer(function(input, output) {
     # draw the histogram with the specified number of bins
     hist(x, breaks = LOS, col = 'blue', border = 'white', 
          main="Customer Length of Stay",
-         xlab="LOS")
+         xlab="LOS", xlim = c(0,input$LOS+1))
     
   })
   

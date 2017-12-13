@@ -31,7 +31,7 @@ shinyUI(fluidPage(
     mainPanel(
       
       p('A Telco needs to analyze their customer data to derive a Churn Prediction Model. One of the key attributes determine Churn is the LOS (Length of Stay) which shows loyal customers.'),
-      p('The distribution of Customers across LOS range is displayed below:'),
+      p('Using the slider you can show the distribution across LOS range as displayed below:'),
       
        plotOutput("distPlot")
     )
