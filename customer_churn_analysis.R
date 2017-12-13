@@ -1,4 +1,4 @@
-library(stats)
+lilibrary(stats)
 library(caTools)
 library(Amelia)
 library(dplyr)

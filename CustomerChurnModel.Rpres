@@ -9,9 +9,8 @@ First Slide
 
 For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+- Telco Churn Model
+- LOS Exploratory Analysis
 
 Overview
 ========================================================
@@ -23,6 +22,12 @@ Data Source
 ========================================================
 
 we have forked repository https://github.com/treselle-systems/customer_churn_analysis which contains the sample data set 'WA_Fn-UseC_-Telco-Customer-Churn.csv'
+
+```{r}
+telecomDataframe <- read.csv("WA_Fn-UseC_-Telco-Customer-Churn.csv", sep = ",")
+summary(telecomDataframe)
+```
+
 
 Shiny files
 ========================================================
@@ -37,4 +42,8 @@ Application functionality
 ========================================================
 
 The application is drawing histogram of frequency of LOS distribution in the telco data set.
+
+```{r}
+hist(telecomDataframe$tenure)
+```
 
